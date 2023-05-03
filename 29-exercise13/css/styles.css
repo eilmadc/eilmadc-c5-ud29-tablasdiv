@@ -1,0 +1,103 @@
+html {
+  background-color: #a09d9df5;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 26px;
+  color: #403f4c;
+}
+body {
+  display: flexbox;
+  margin: 0 auto;
+  width: 1150px;
+  border-top: 0.5rem;
+  padding-top: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.main-container {
+  background-color: #f1f8fa;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  border-radius: 2.5rem;
+}
+
+.main-container h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.main-container h2 {
+  text-align: left;
+  font-family: Courgette;
+  font-weight: bold;
+}
+
+.main-container h4 {
+  text-align: left;
+  font-family: Courgette;
+  font-weight: bold;
+}
+
+.main-container-part1 {
+  font-style: italic;
+  font-family: Dubai Medium;
+}
+.main-container-part2 {
+  font-family: Dubai Medium;
+}
+
+/* CSS for table of contents*/
+.main-container-part2 table {
+  border: 0.2rem outset darkgrey;
+  background-color: rgb(219, 209, 209);
+  width: 900px;
+}
+
+/* CSS for table of tr row-title*/
+.main-container-part2 .row_title {
+  background-color: #cbffcd;
+  color: black;
+  border-style: solid;
+  border-width: 0px;
+  text-align: center;
+}
+
+/* CSS for table of tr row-par*/
+.main-container-part2 .row_13 {
+  background-color: white;
+  color: black;
+  border-width: 0px;
+  text-align: center;
+}
+
+/* CSS for table of tr row-par*/
+.main-container-part2 th,
+td {
+  border-color: white;
+  border-style: inset;
+  border-width: 1px;
+  width: 180px;
+}
+
+.main-container-part2 .col_13 {
+  width: 350px;
+}
+.main-container-part2 .col_3 {
+  background-color: white;
+  color: red;
+}
+
+.main-container-part2 .col_2 {
+  background-color: #74fdff;
+  text-align: left;
+}
+
+.main-container-part2 .col_6 {
+background-color: #FF95FE;
+text-align: right;
+}
