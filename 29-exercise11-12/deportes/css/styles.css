@@ -102,7 +102,7 @@ body {
   }
 
     /* CSS for table of tr row-par*/
-.main-container-part2  td{
+.main-container-part2  th, td{
     border-color: white;
     border-style:inset;
     border-width: 1px;
