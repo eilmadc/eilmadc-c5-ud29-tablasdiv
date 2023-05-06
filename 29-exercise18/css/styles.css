@@ -1,0 +1,29 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    
+}
+p{
+    font-size: x-large;
+}
+div{
+    background: url(../images/f01.png) left bottom repeat-x,
+    url(../images/f02.png) left bottom no-repeat,
+    url(../images/f03.png) left top repeat-x;
+    background-color: #a4d3ff;
+}
+
+.main-container-part1{
+width: 15%;
+height: 100px;
+border: 2px solid blueviolet;
+margin: 5%;
+padding: 0.3%;
+}
+.main-container-part2{
+    width: 30%;
+    height: 200px;
+    border: 4px solid #C51F12;
+    margin: 5%;
+    padding: 0.3%;
+}
+
