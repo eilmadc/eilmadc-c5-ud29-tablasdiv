@@ -1,5 +1,5 @@
 html {
-  background-color: #a09d9df5;
+  background-color: #202330;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 13px;
   color: #403f4c;
@@ -14,7 +14,7 @@ body {
 }
 
 .main-container {
-  background-color: #f1f8fa;
+  background-color: white;
   padding-top: 1rem;
   padding-bottom: 5rem;
   padding-left: 5rem;
