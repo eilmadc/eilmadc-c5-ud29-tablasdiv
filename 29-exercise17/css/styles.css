@@ -13,7 +13,7 @@ body{
 
 .modC {
   background-image: url("../images/back_mantel.jpg");
-  background-clip:100% 100%;
+  background-size:100% 100%;
 }
 
 .modD {
@@ -21,6 +21,7 @@ body{
   background-repeat:no-repeat;
   background-size:100% 100%;
   background-origin:content-box;
+  background-color: white;
 }
 
 .modE {
@@ -34,20 +35,26 @@ body{
   background-repeat:no-repeat;
   background-size: cover;
   background-origin: content-box;
+  background-color: white;
 }
 
 .modG {
   background-image: url("../images/dh_2.jpg");
   background-repeat:no-repeat;
   background-size: contain;
+  background-position: 50% 50%;
   background-origin: center;
+  background-color: white;
+  
 }
 
 .modH {
   background-image: url("../images/dh_3.jpg");
   background-repeat:no-repeat;
   background-size: contain;
+  background-position: 50% 50%;
   background-origin: center;
+  background-color: white;
 }
 
 .modI {
@@ -63,34 +70,21 @@ body{
 }
 
 .modL {
-  background: linear-gradient(to top,rgba(50,116,45,1) 0%,rgba(240,183,161,1) 100%);
+  background: linear-gradient(to top,rgba(50,116,45,1) 0%, transparent);
 }
 
-.main_container{
-  display: flex;
-  margin: 0 auto;
-  width: 0 auto;
-  height: 0 auto;
-  border-top: 5rem;
-  padding-top: 5rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
+.main-container{
+
+  height: 700px;
+  margin: 3% 5% 5% 5%;
 }
 
-.table{
-  width: 100%;
-}
-
-img{
-  width: 350px;
-  height: 350px;
-}
-
-
- tr{
-  height: auto;
-  padding: 50px;
-  text-align: center;
+.cell{
+  width: 180px;
+  height: 180px;
+  margin: 2% 5% 2% 5%;
+  padding: 2%;
+  float: left;
+  justify-content: center;
+  border: 1px solid black;
 }
