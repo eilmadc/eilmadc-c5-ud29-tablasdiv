@@ -1,0 +1,39 @@
+html {
+  background-color: #a09d9df5;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 13px;
+  color: #403f4c;
+}
+body {
+  margin: 0 auto;
+  padding-top: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.main-container {
+  background-color: #f1f8fa;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  border-radius: 2.5rem;
+}
+
+
+/* CSS for table of contents*/
+.main-container-part2 table {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.main-container-part2 th, td{
+  border: 0.5px solid black;
+}
+
+.main-container-part2 .row_2{
+  font-weight: bold;
+}
+/*   */
